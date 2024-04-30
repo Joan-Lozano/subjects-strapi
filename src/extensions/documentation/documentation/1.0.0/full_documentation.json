@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-04-30T14:06:50.978Z"
+    "x-generation-date": "2024-04-30T22:13:13.455Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -102,6 +102,15 @@
                 "type": "string"
               },
               "idRetention13": {
+                "type": "string"
+              },
+              "idSubjectInvalidated": {
+                "type": "string"
+              },
+              "idRetention1Invalidated": {
+                "type": "string"
+              },
+              "idRetention13Invalidated": {
                 "type": "string"
               },
               "name": {
@@ -210,6 +219,15 @@
             "type": "string"
           },
           "idRetention13": {
+            "type": "string"
+          },
+          "idSubjectInvalidated": {
+            "type": "string"
+          },
+          "idRetention1Invalidated": {
+            "type": "string"
+          },
+          "idRetention13Invalidated": {
             "type": "string"
           },
           "name": {

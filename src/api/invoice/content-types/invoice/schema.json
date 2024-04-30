@@ -24,6 +24,18 @@
       "type": "customField",
       "customField": "plugin::field-uuid.uuid"
     },
+    "idSubjectInvalidated": {
+      "type": "customField",
+      "customField": "plugin::field-uuid.uuid"
+    },
+    "idRetention1Invalidated": {
+      "type": "customField",
+      "customField": "plugin::field-uuid.uuid"
+    },
+    "idRetention13Invalidated": {
+      "type": "customField",
+      "customField": "plugin::field-uuid.uuid"
+    },
     "name": {
       "type": "string",
       "maxLength": 100

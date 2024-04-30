@@ -379,6 +379,12 @@ export interface ApiInvoiceInvoice extends Schema.CollectionType {
       Attribute.CustomField<'plugin::field-uuid.uuid'>;
     idRetention13: Attribute.UID &
       Attribute.CustomField<'plugin::field-uuid.uuid'>;
+    idSubjectInvalidated: Attribute.UID &
+      Attribute.CustomField<'plugin::field-uuid.uuid'>;
+    idRetention1Invalidated: Attribute.UID &
+      Attribute.CustomField<'plugin::field-uuid.uuid'>;
+    idRetention13Invalidated: Attribute.UID &
+      Attribute.CustomField<'plugin::field-uuid.uuid'>;
     name: Attribute.String &
       Attribute.SetMinMaxLength<{
         maxLength: 100;
