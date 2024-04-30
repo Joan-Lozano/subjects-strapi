@@ -1,0 +1,81 @@
+{
+  "kind": "collectionType",
+  "collectionName": "invoices",
+  "info": {
+    "singularName": "invoice",
+    "pluralName": "invoices",
+    "displayName": "Invoice",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "idSubject": {
+      "type": "customField",
+      "customField": "plugin::field-uuid.uuid"
+    },
+    "idRetention1": {
+      "type": "customField",
+      "customField": "plugin::field-uuid.uuid"
+    },
+    "idRetention13": {
+      "type": "customField",
+      "customField": "plugin::field-uuid.uuid"
+    },
+    "name": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "nit": {
+      "type": "string"
+    },
+    "dui": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text",
+      "maxLength": 150
+    },
+    "municipality": {
+      "type": "integer"
+    },
+    "department": {
+      "type": "integer"
+    },
+    "acreedor": {
+      "type": "string"
+    },
+    "societyCode": {
+      "type": "string"
+    },
+    "societyName": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "branch": {
+      "type": "string"
+    },
+    "userId": {
+      "type": "string"
+    },
+    "userName": {
+      "type": "string"
+    },
+    "detailSubject": {
+      "type": "json"
+    },
+    "detailRetention1": {
+      "type": "json"
+    },
+    "detailRetention13": {
+      "type": "json"
+    },
+    "documentType": {
+      "type": "string"
+    }
+  }
+}

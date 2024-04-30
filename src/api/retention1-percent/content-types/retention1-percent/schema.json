@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "retention1_percents",
+  "info": {
+    "singularName": "retention1-percent",
+    "pluralName": "retention1-percents",
+    "displayName": "retention1Percent"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "jsonCreate": {
+      "type": "json"
+    },
+    "responseCreate": {
+      "type": "json"
+    },
+    "jsonEdited": {
+      "type": "json"
+    },
+    "responseErrors": {
+      "type": "json"
+    },
+    "jsonInvalidate": {
+      "type": "json"
+    },
+    "responseInvalidation": {
+      "type": "json"
+    }
+  }
+}

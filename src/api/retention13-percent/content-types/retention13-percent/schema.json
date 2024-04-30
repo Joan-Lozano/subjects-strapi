@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "retention13_percents",
+  "info": {
+    "singularName": "retention13-percent",
+    "pluralName": "retention13-percents",
+    "displayName": "retention13Percent"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "jsonCreate": {
+      "type": "json"
+    },
+    "responseCreate": {
+      "type": "json"
+    },
+    "jsonEdited": {
+      "type": "json"
+    },
+    "responseErrors": {
+      "type": "json"
+    },
+    "jsonInvalidate": {
+      "type": "json"
+    },
+    "responseInvalidation": {
+      "type": "json"
+    }
+  }
+}

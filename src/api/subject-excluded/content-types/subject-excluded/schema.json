@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subject_excludeds",
+  "info": {
+    "singularName": "subject-excluded",
+    "pluralName": "subject-excludeds",
+    "displayName": "subjectExcluded"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "jsonCreate": {
+      "type": "json"
+    },
+    "responseSuccess": {
+      "type": "json"
+    },
+    "jsonEdited": {
+      "type": "json"
+    },
+    "responseErrors": {
+      "type": "json"
+    },
+    "jsonInvalidate": {
+      "type": "json"
+    },
+    "responseInvalidation": {
+      "type": "json"
+    }
+  }
+}
