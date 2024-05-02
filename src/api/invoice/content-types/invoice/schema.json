@@ -106,6 +106,9 @@
       "relation": "oneToOne",
       "target": "api::retention1-percent.retention1-percent",
       "inversedBy": "invoice"
+    },
+    "branchName": {
+      "type": "string"
     }
   }
 }

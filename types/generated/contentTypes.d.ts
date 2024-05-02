@@ -423,6 +423,7 @@ export interface ApiInvoiceInvoice extends Schema.CollectionType {
       'oneToOne',
       'api::retention1-percent.retention1-percent'
     >;
+    branchName: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -448,6 +449,7 @@ export interface ApiRetention1PercentRetention1Percent
     singularName: 'retention1-percent';
     pluralName: 'retention1-percents';
     displayName: 'retention1Percent';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -540,6 +542,7 @@ export interface ApiRetention1PercentRetention1Percent
       'oneToOne',
       'api::invoice.invoice'
     >;
+    status: Attribute.String & Attribute.DefaultTo<'create'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -658,6 +661,7 @@ export interface ApiRetention13PercentRetention13Percent
       'oneToOne',
       'api::invoice.invoice'
     >;
+    status: Attribute.String & Attribute.DefaultTo<'create'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -756,6 +760,7 @@ export interface ApiSubjectExcludedSubjectExcluded
       'oneToOne',
       'api::invoice.invoice'
     >;
+    status: Attribute.String & Attribute.DefaultTo<'create'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

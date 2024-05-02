@@ -283,6 +283,10 @@
       "relation": "oneToOne",
       "target": "api::invoice.invoice",
       "mappedBy": "retention_13_percent"
+    },
+    "status": {
+      "type": "string",
+      "default": "create"
     }
   }
 }

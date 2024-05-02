@@ -222,6 +222,10 @@
       "relation": "oneToOne",
       "target": "api::invoice.invoice",
       "mappedBy": "subject_excluded"
+    },
+    "status": {
+      "type": "string",
+      "default": "create"
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "retention1-percent",
     "pluralName": "retention1-percents",
-    "displayName": "retention1Percent"
+    "displayName": "retention1Percent",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -282,6 +283,10 @@
       "relation": "oneToOne",
       "target": "api::invoice.invoice",
       "mappedBy": "retention_1_percent"
+    },
+    "status": {
+      "type": "string",
+      "default": "create"
     }
   }
 }

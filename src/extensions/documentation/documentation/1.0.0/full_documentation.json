@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-05-02T15:07:49.985Z"
+    "x-generation-date": "2024-05-02T17:33:30.101Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -191,6 +191,9 @@
                   }
                 ],
                 "example": "string or id"
+              },
+              "branchName": {
+                "type": "string"
               }
             }
           }
@@ -865,6 +868,9 @@
                                                   }
                                                 }
                                               },
+                                              "status": {
+                                                "type": "string"
+                                              },
                                               "createdAt": {
                                                 "type": "string",
                                                 "format": "date-time"
@@ -1435,6 +1441,9 @@
                                                   }
                                                 }
                                               },
+                                              "status": {
+                                                "type": "string"
+                                              },
                                               "createdAt": {
                                                 "type": "string",
                                                 "format": "date-time"
@@ -1487,6 +1496,9 @@
                                       }
                                     }
                                   },
+                                  "branchName": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string",
                                     "format": "date-time"
@@ -1538,6 +1550,9 @@
                             }
                           }
                         }
+                      },
+                      "status": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",
@@ -1624,6 +1639,9 @@
                 }
               }
             }
+          },
+          "branchName": {
+            "type": "string"
           },
           "createdAt": {
             "type": "string",
@@ -1951,6 +1969,9 @@
                   }
                 ],
                 "example": "string or id"
+              },
+              "status": {
+                "type": "string"
               }
             }
           }
@@ -2532,6 +2553,9 @@
                                       }
                                     }
                                   },
+                                  "status": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string",
                                     "format": "date-time"
@@ -3102,6 +3126,9 @@
                                       }
                                     }
                                   },
+                                  "status": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string",
                                     "format": "date-time"
@@ -3420,6 +3447,9 @@
                                       }
                                     }
                                   },
+                                  "status": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string",
                                     "format": "date-time"
@@ -3472,6 +3502,9 @@
                           }
                         }
                       },
+                      "branchName": {
+                        "type": "string"
+                      },
                       "createdAt": {
                         "type": "string",
                         "format": "date-time"
@@ -3523,6 +3556,9 @@
                 }
               }
             }
+          },
+          "status": {
+            "type": "string"
           },
           "createdAt": {
             "type": "string",
@@ -3850,6 +3886,9 @@
                   }
                 ],
                 "example": "string or id"
+              },
+              "status": {
+                "type": "string"
               }
             }
           }
@@ -4431,6 +4470,9 @@
                                       }
                                     }
                                   },
+                                  "status": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string",
                                     "format": "date-time"
@@ -5001,6 +5043,9 @@
                                       }
                                     }
                                   },
+                                  "status": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string",
                                     "format": "date-time"
@@ -5319,6 +5364,9 @@
                                       }
                                     }
                                   },
+                                  "status": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string",
                                     "format": "date-time"
@@ -5371,6 +5419,9 @@
                           }
                         }
                       },
+                      "branchName": {
+                        "type": "string"
+                      },
                       "createdAt": {
                         "type": "string",
                         "format": "date-time"
@@ -5422,6 +5473,9 @@
                 }
               }
             }
+          },
+          "status": {
+            "type": "string"
           },
           "createdAt": {
             "type": "string",
@@ -5697,6 +5751,9 @@
                   }
                 ],
                 "example": "string or id"
+              },
+              "status": {
+                "type": "string"
               }
             }
           }
@@ -6226,6 +6283,9 @@
                                       }
                                     }
                                   },
+                                  "status": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string",
                                     "format": "date-time"
@@ -6796,6 +6856,9 @@
                                       }
                                     }
                                   },
+                                  "status": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string",
                                     "format": "date-time"
@@ -7114,6 +7177,9 @@
                                       }
                                     }
                                   },
+                                  "status": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string",
                                     "format": "date-time"
@@ -7166,6 +7232,9 @@
                           }
                         }
                       },
+                      "branchName": {
+                        "type": "string"
+                      },
                       "createdAt": {
                         "type": "string",
                         "format": "date-time"
@@ -7217,6 +7286,9 @@
                 }
               }
             }
+          },
+          "status": {
+            "type": "string"
           },
           "createdAt": {
             "type": "string",
