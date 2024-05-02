@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-04-30T22:13:13.455Z"
+    "x-generation-date": "2024-05-02T14:00:21.328Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1404,7 +1404,186 @@
               "jsonEdited": {},
               "responseErrors": {},
               "jsonInvalidate": {},
-              "responseInvalidation": {}
+              "responseInvalidation": {},
+              "docNumber": {
+                "type": "string"
+              },
+              "uuid": {
+                "type": "string"
+              },
+              "date": {
+                "type": "string"
+              },
+              "documentType": {
+                "type": "string"
+              },
+              "operationType": {
+                "type": "string"
+              },
+              "currency": {
+                "type": "string"
+              },
+              "conditionPay": {
+                "type": "string"
+              },
+              "subTotalNetSale": {
+                "type": "number",
+                "format": "float"
+              },
+              "subTotal": {
+                "type": "number",
+                "format": "float"
+              },
+              "iva": {
+                "type": "number",
+                "format": "float"
+              },
+              "total": {
+                "type": "number",
+                "format": "float"
+              },
+              "otherCharges": {
+                "type": "number",
+                "format": "float"
+              },
+              "totalLetter": {
+                "type": "string"
+              },
+              "totalOperation": {
+                "type": "number",
+                "format": "float"
+              },
+              "totalNotSuject": {
+                "type": "number",
+                "format": "float"
+              },
+              "detailType": {
+                "type": "string"
+              },
+              "operatiCondition": {
+                "type": "string"
+              },
+              "ivaDetained": {
+                "type": "number",
+                "format": "float"
+              },
+              "totalDiscount": {
+                "type": "number",
+                "format": "float"
+              },
+              "rentMount": {
+                "type": "number",
+                "format": "float"
+              },
+              "subTotalMountIva": {
+                "type": "number",
+                "format": "float"
+              },
+              "totalTaxed": {
+                "type": "number",
+                "format": "float"
+              },
+              "totalExent": {
+                "type": "number",
+                "format": "float"
+              },
+              "voucherEffect": {
+                "type": "string"
+              },
+              "modelType": {
+                "type": "number",
+                "format": "float"
+              },
+              "termsDeliveryCode": {
+                "type": "string"
+              },
+              "transmitterData_name": {
+                "type": "string"
+              },
+              "transmitterData_documentNumber": {
+                "type": "string"
+              },
+              "transmitterData_address": {
+                "type": "string"
+              },
+              "transmitterData_municipalityNumber": {
+                "type": "string"
+              },
+              "transmitterData_departmentNumber": {
+                "type": "string"
+              },
+              "transmitterData_phone": {
+                "type": "string"
+              },
+              "transmitterData_nrc": {
+                "type": "string"
+              },
+              "transmitterData_email": {
+                "type": "string"
+              },
+              "transmitterData_activityName": {
+                "type": "string"
+              },
+              "transmitterData_activityCode": {
+                "type": "string"
+              },
+              "transmitterData_storeCode": {
+                "type": "string"
+              },
+              "transmitterData_country": {
+                "type": "string"
+              },
+              "transmitterData_boxNumber": {
+                "type": "string"
+              },
+              "transmitterData_shopName": {
+                "type": "string"
+              },
+              "transmitterData_branchType": {
+                "type": "string"
+              },
+              "receiverData_name": {
+                "type": "string"
+              },
+              "receiverData_documentNumber": {
+                "type": "string"
+              },
+              "receiverData_address": {
+                "type": "string"
+              },
+              "receiverData_municipalityNumber": {
+                "type": "string"
+              },
+              "receiverData_departmentNumber": {
+                "type": "string"
+              },
+              "receiverData_phone": {
+                "type": "string"
+              },
+              "receiverData_nrc": {
+                "type": "string"
+              },
+              "receiverData_email": {
+                "type": "string"
+              },
+              "receiverData_activityName": {
+                "type": "string"
+              },
+              "receiverData_activityCode": {
+                "type": "string"
+              },
+              "receiverData_country": {
+                "type": "string"
+              },
+              "receiverData_comercialName": {
+                "type": "string"
+              },
+              "receiverData_personType": {
+                "type": "string"
+              },
+              "receiverData_identifyDocument": {
+                "type": "string"
+              }
             }
           }
         }
@@ -1464,6 +1643,185 @@
           "responseErrors": {},
           "jsonInvalidate": {},
           "responseInvalidation": {},
+          "docNumber": {
+            "type": "string"
+          },
+          "uuid": {
+            "type": "string"
+          },
+          "date": {
+            "type": "string"
+          },
+          "documentType": {
+            "type": "string"
+          },
+          "operationType": {
+            "type": "string"
+          },
+          "currency": {
+            "type": "string"
+          },
+          "conditionPay": {
+            "type": "string"
+          },
+          "subTotalNetSale": {
+            "type": "number",
+            "format": "float"
+          },
+          "subTotal": {
+            "type": "number",
+            "format": "float"
+          },
+          "iva": {
+            "type": "number",
+            "format": "float"
+          },
+          "total": {
+            "type": "number",
+            "format": "float"
+          },
+          "otherCharges": {
+            "type": "number",
+            "format": "float"
+          },
+          "totalLetter": {
+            "type": "string"
+          },
+          "totalOperation": {
+            "type": "number",
+            "format": "float"
+          },
+          "totalNotSuject": {
+            "type": "number",
+            "format": "float"
+          },
+          "detailType": {
+            "type": "string"
+          },
+          "operatiCondition": {
+            "type": "string"
+          },
+          "ivaDetained": {
+            "type": "number",
+            "format": "float"
+          },
+          "totalDiscount": {
+            "type": "number",
+            "format": "float"
+          },
+          "rentMount": {
+            "type": "number",
+            "format": "float"
+          },
+          "subTotalMountIva": {
+            "type": "number",
+            "format": "float"
+          },
+          "totalTaxed": {
+            "type": "number",
+            "format": "float"
+          },
+          "totalExent": {
+            "type": "number",
+            "format": "float"
+          },
+          "voucherEffect": {
+            "type": "string"
+          },
+          "modelType": {
+            "type": "number",
+            "format": "float"
+          },
+          "termsDeliveryCode": {
+            "type": "string"
+          },
+          "transmitterData_name": {
+            "type": "string"
+          },
+          "transmitterData_documentNumber": {
+            "type": "string"
+          },
+          "transmitterData_address": {
+            "type": "string"
+          },
+          "transmitterData_municipalityNumber": {
+            "type": "string"
+          },
+          "transmitterData_departmentNumber": {
+            "type": "string"
+          },
+          "transmitterData_phone": {
+            "type": "string"
+          },
+          "transmitterData_nrc": {
+            "type": "string"
+          },
+          "transmitterData_email": {
+            "type": "string"
+          },
+          "transmitterData_activityName": {
+            "type": "string"
+          },
+          "transmitterData_activityCode": {
+            "type": "string"
+          },
+          "transmitterData_storeCode": {
+            "type": "string"
+          },
+          "transmitterData_country": {
+            "type": "string"
+          },
+          "transmitterData_boxNumber": {
+            "type": "string"
+          },
+          "transmitterData_shopName": {
+            "type": "string"
+          },
+          "transmitterData_branchType": {
+            "type": "string"
+          },
+          "receiverData_name": {
+            "type": "string"
+          },
+          "receiverData_documentNumber": {
+            "type": "string"
+          },
+          "receiverData_address": {
+            "type": "string"
+          },
+          "receiverData_municipalityNumber": {
+            "type": "string"
+          },
+          "receiverData_departmentNumber": {
+            "type": "string"
+          },
+          "receiverData_phone": {
+            "type": "string"
+          },
+          "receiverData_nrc": {
+            "type": "string"
+          },
+          "receiverData_email": {
+            "type": "string"
+          },
+          "receiverData_activityName": {
+            "type": "string"
+          },
+          "receiverData_activityCode": {
+            "type": "string"
+          },
+          "receiverData_country": {
+            "type": "string"
+          },
+          "receiverData_comercialName": {
+            "type": "string"
+          },
+          "receiverData_personType": {
+            "type": "string"
+          },
+          "receiverData_identifyDocument": {
+            "type": "string"
+          },
           "createdAt": {
             "type": "string",
             "format": "date-time"
