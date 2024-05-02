@@ -276,6 +276,12 @@
     "retetionReference_documentTypeReference": {
       "type": "string",
       "default": "14"
+    },
+    "invoice": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::invoice.invoice",
+      "mappedBy": "retention_1_percent"
     }
   }
 }

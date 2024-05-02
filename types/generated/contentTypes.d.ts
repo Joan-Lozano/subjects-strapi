@@ -408,6 +408,21 @@ export interface ApiInvoiceInvoice extends Schema.CollectionType {
     detailRetention1: Attribute.JSON;
     detailRetention13: Attribute.JSON;
     documentType: Attribute.String;
+    subject_excluded: Attribute.Relation<
+      'api::invoice.invoice',
+      'oneToOne',
+      'api::subject-excluded.subject-excluded'
+    >;
+    retention_13_percent: Attribute.Relation<
+      'api::invoice.invoice',
+      'oneToOne',
+      'api::retention13-percent.retention13-percent'
+    >;
+    retention_1_percent: Attribute.Relation<
+      'api::invoice.invoice',
+      'oneToOne',
+      'api::retention1-percent.retention1-percent'
+    >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -520,6 +535,11 @@ export interface ApiRetention1PercentRetention1Percent
     retetionReference_referenceDate: Attribute.String;
     retetionReference_documentTypeReference: Attribute.String &
       Attribute.DefaultTo<'14'>;
+    invoice: Attribute.Relation<
+      'api::retention1-percent.retention1-percent',
+      'oneToOne',
+      'api::invoice.invoice'
+    >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -633,6 +653,11 @@ export interface ApiRetention13PercentRetention13Percent
     retetionReference_referenceDate: Attribute.String;
     retetionReference_documentTypeReference: Attribute.String &
       Attribute.DefaultTo<'14'>;
+    invoice: Attribute.Relation<
+      'api::retention13-percent.retention13-percent',
+      'oneToOne',
+      'api::invoice.invoice'
+    >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -726,6 +751,11 @@ export interface ApiSubjectExcludedSubjectExcluded
     receiverData_comercialName: Attribute.String;
     receiverData_personType: Attribute.String;
     receiverData_identifyDocument: Attribute.String;
+    invoice: Attribute.Relation<
+      'api::subject-excluded.subject-excluded',
+      'oneToOne',
+      'api::invoice.invoice'
+    >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

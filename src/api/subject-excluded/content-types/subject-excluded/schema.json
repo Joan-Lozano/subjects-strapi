@@ -216,6 +216,12 @@
     },
     "receiverData_identifyDocument": {
       "type": "string"
+    },
+    "invoice": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::invoice.invoice",
+      "mappedBy": "subject_excluded"
     }
   }
 }

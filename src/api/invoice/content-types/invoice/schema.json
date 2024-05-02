@@ -88,6 +88,24 @@
     },
     "documentType": {
       "type": "string"
+    },
+    "subject_excluded": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::subject-excluded.subject-excluded",
+      "inversedBy": "invoice"
+    },
+    "retention_13_percent": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::retention13-percent.retention13-percent",
+      "inversedBy": "invoice"
+    },
+    "retention_1_percent": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::retention1-percent.retention1-percent",
+      "inversedBy": "invoice"
     }
   }
 }
