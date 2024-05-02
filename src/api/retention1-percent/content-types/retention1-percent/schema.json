@@ -14,7 +14,7 @@
     "jsonCreate": {
       "type": "json"
     },
-    "responseCreate": {
+    "responseSuccess": {
       "type": "json"
     },
     "jsonEdited": {
@@ -28,6 +28,254 @@
     },
     "responseInvalidation": {
       "type": "json"
+    },
+    "docNumber": {
+      "type": "string"
+    },
+    "uuid": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "documentType": {
+      "type": "string",
+      "default": "14"
+    },
+    "operationType": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "string",
+      "default": "USD"
+    },
+    "conditionPay": {
+      "type": "string",
+      "default": "1"
+    },
+    "subTotalNetSale": {
+      "type": "float",
+      "default": 0
+    },
+    "subTotal": {
+      "type": "float",
+      "default": 0
+    },
+    "iva": {
+      "type": "float",
+      "default": 0
+    },
+    "total": {
+      "type": "float",
+      "default": 0
+    },
+    "otherCharges": {
+      "type": "float",
+      "default": 0
+    },
+    "totalLetter": {
+      "type": "string"
+    },
+    "totalOperation": {
+      "type": "float",
+      "default": 0
+    },
+    "totalNotSuject": {
+      "type": "float",
+      "default": 0
+    },
+    "detailType": {
+      "type": "string",
+      "default": "CA"
+    },
+    "operatiCondition": {
+      "type": "string"
+    },
+    "ivaDetained": {
+      "type": "float",
+      "default": 0
+    },
+    "totalDiscount": {
+      "type": "float",
+      "default": 0
+    },
+    "rentMount": {
+      "type": "float",
+      "default": 0
+    },
+    "subTotalMountIva": {
+      "type": "float",
+      "default": 0
+    },
+    "totalTaxed": {
+      "type": "float",
+      "default": 0
+    },
+    "totalExent": {
+      "type": "float",
+      "default": 0
+    },
+    "voucherEffect": {
+      "type": "string",
+      "default": "1"
+    },
+    "modelType": {
+      "type": "float",
+      "default": 1
+    },
+    "termsDeliveryCode": {
+      "type": "string"
+    },
+    "transmitterData_name": {
+      "type": "string"
+    },
+    "transmitterData_documentNumber": {
+      "type": "string"
+    },
+    "transmitterData_address": {
+      "type": "string"
+    },
+    "transmitterData_municipalityNumber": {
+      "type": "string"
+    },
+    "transmitterData_departmentNumber": {
+      "type": "string"
+    },
+    "transmitterData_phone": {
+      "type": "string"
+    },
+    "transmitterData_nrc": {
+      "type": "string"
+    },
+    "transmitterData_email": {
+      "type": "string"
+    },
+    "transmitterData_activityName": {
+      "type": "string"
+    },
+    "transmitterData_activityCode": {
+      "type": "string"
+    },
+    "transmitterData_storeCode": {
+      "type": "string"
+    },
+    "transmitterData_country": {
+      "type": "string",
+      "default": "9300"
+    },
+    "transmitterData_boxNumber": {
+      "type": "string",
+      "default": "000000000000001"
+    },
+    "transmitterData_shopName": {
+      "type": "string"
+    },
+    "transmitterData_branchType": {
+      "type": "string"
+    },
+    "receiverData_name": {
+      "type": "string"
+    },
+    "receiverData_documentNumber": {
+      "type": "string"
+    },
+    "receiverData_address": {
+      "type": "string"
+    },
+    "receiverData_municipalityNumber": {
+      "type": "string"
+    },
+    "receiverData_departmentNumber": {
+      "type": "string"
+    },
+    "receiverData_phone": {
+      "type": "string"
+    },
+    "receiverData_nrc": {
+      "type": "string"
+    },
+    "receiverData_email": {
+      "type": "string"
+    },
+    "receiverData_activityName": {
+      "type": "string"
+    },
+    "receiverData_activityCode": {
+      "type": "string"
+    },
+    "receiverData_country": {
+      "type": "string",
+      "default": "9300"
+    },
+    "receiverData_comercialName": {
+      "type": "string"
+    },
+    "receiverData_personType": {
+      "type": "string"
+    },
+    "receiverData_identifyDocument": {
+      "type": "string"
+    },
+    "creditNote_uuidDocument": {
+      "type": "string"
+    },
+    "creditNote_documentReferenceType": {
+      "type": "string",
+      "default": "14"
+    },
+    "creditNote_emitDate": {
+      "type": "string"
+    },
+    "creditNote_variationPercent": {
+      "type": "string",
+      "default": "13"
+    },
+    "creditNote_generateType": {
+      "type": "string",
+      "default": "1"
+    },
+    "creditNote_paymentMethod": {
+      "type": "string",
+      "default": "03"
+    },
+    "creditNote_auxiliarDetail": {
+      "type": "string",
+      "default": "CR"
+    },
+    "creditNote_retentionCode": {
+      "type": "string"
+    },
+    "retetionReference_detailType": {
+      "type": "string",
+      "default": "RF"
+    },
+    "retetionReference_detailDescription": {
+      "type": "string",
+      "default": "Información de referencia"
+    },
+    "retetionReference_dteCode": {
+      "type": "string"
+    },
+    "retetionReference_documentType": {
+      "type": "string",
+      "default": "2"
+    },
+    "retetionReference_mount": {
+      "type": "float",
+      "default": 0
+    },
+    "retetionReference_referenceDocument": {
+      "type": "string"
+    },
+    "retetionReference_supplierName": {
+      "type": "string"
+    },
+    "retetionReference_referenceDate": {
+      "type": "string"
+    },
+    "retetionReference_documentTypeReference": {
+      "type": "string",
+      "default": "14"
     }
   }
 }
